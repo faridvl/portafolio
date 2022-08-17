@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+        font-weight: 400;
+        span {
+            font-weight: bold;
+        }
+    }
+
+   
+
+    &__links {
+        position: absolute;
+        top: -700px;
+        left: -2000px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 1rem;
+            display: block;
+            font-size: 2rem;
+        }
+        @media screen and (min-width: 768px) {
+            position: initial;
+            margin: 0;
+            a{
+                font-size: 1rem;
+                color: white;
+                display: inline;
+            }
+         }
+    }
+    &__links.active {
+        width: 100%;
+        display: block;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 30%;
+        left: 0;
+        right: 0;
+    }
+
+    &__burger-icon {
+        color: #fff;
+        @media screen and (min-width: 768px) {
+            min-width: 768px;
+            display: none;
+        }
+    }
+}
