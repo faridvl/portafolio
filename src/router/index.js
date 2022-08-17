@@ -8,9 +8,9 @@ function Router() {
         <div className='container'>
             <BrowserRouter>
                 <Navbar  />
-               {/*  <Routes>
+                <Routes>
                     <Route path='/' element={<Home />} />
-                </Routes> */}
+                </Routes>
             </BrowserRouter>
         </div>
     )

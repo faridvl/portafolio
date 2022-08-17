@@ -1,8 +1,18 @@
-.test {
-    background-color: black;
+.home_content {
+    text-align: center;
+    margin-top: 120px;
+}
+.title {
+    text-align: center;
 }
 
-html {
-    background-color: #23283e;
-    color: #ffff;
+.description {
+    display: flex;
+    justify-content: center;
+    p {
+        text-align: justify;
+        max-width: 600px;
+        font-size: 0.95rem;
+        line-height: 1.85em;
+    }
 }

@@ -1,0 +1,24 @@
+.container_cards {
+    justify-content: space-around;
+    
+    display: flex;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .card {
+        top: 50%;
+        left: 50%;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        min-width: 75px;
+        min-height: 45px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
