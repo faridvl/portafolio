@@ -5,7 +5,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import './styles.scss'
 export const SocialCards = () => {
     return (
-        <div>
+        <div className=''>
             <h2> Social </h2>
 
             <div className='container_cards'>
@@ -15,9 +15,9 @@ export const SocialCards = () => {
                         <div className='icon'>
                             <GitHubIcon sx={{ width: '45px', height: '45px' }} />
                         </div>
-                        <div className='skill_name'>
+                       {/*  <div className='skill_name'>
                             <p>Github</p>
-                        </div>
+                        </div> */}
 
                     </div>
                 </a>
@@ -27,9 +27,9 @@ export const SocialCards = () => {
                         <div className='icon'>
                             <LinkedInIcon sx={{ width: '45px', height: '45px' }} />
                         </div>
-                        <div className='skill_name'>
+                        {/* <div className='skill_name'>
                             <p>LinkedIn</p>
-                        </div>
+                        </div> */}
 
                     </div>
                 </a>
@@ -39,9 +39,9 @@ export const SocialCards = () => {
                         <div className='icon'>
                             <WhatsAppIcon sx={{ width: '45px', height: '45px' }} />
                         </div>
-                        <div className='skill_name'>
+                        {/* <div className='skill_name'>
                             <p>WhatsApp</p>
-                        </div>
+                        </div> */}
 
                     </div>
                 </a>

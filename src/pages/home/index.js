@@ -1,7 +1,9 @@
 import { Container } from '@mui/material'
 import React from 'react'
+import { SkillsCard } from '../../componentes/SkillsCard'
 import { SocialCards } from '../../componentes/SocialCards'
 import './styles.scss'
+import profile1 from '../../assets/4.jpeg'
 export const Home = () => {
     return (
         <>
@@ -9,8 +11,11 @@ export const Home = () => {
 
 
                 <div className='title'>
-                    <h1>Hi, im Farid Villacis Leiva</h1>
-
+                    <div style={{marginRight: '45px'}}>
+                        <h1>Hi, im Farid Villacis Leiva</h1>
+                        <h2>Web Developer</h2>
+                    </div>
+                    <img src={profile1} alt="profile" />
                 </div>
                 <div className='description'>
                     <p>
@@ -19,6 +24,7 @@ export const Home = () => {
                 </div>
 
                 <SocialCards />
+                <SkillsCard />
             </Container>
             <div className=''>
             </div>
